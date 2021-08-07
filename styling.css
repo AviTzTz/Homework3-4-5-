@@ -1,0 +1,209 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+hr{
+    border: dotted 16px #444444;
+    border-left: dotted #444444;
+    border-right: none;
+    border-bottom: none;
+    width: 7%;
+    opacity:20%;  
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.fa-whatsapp{
+    position: fixed;
+    left: 4rem;
+    top: 90%;
+    font-size: 3.5rem;
+    color: white;
+}
+.fa-whatsapp::after{
+    content: '';
+    position: absolute;
+    top:-25%;
+    left: -1.1rem;
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+    border: 2px #000000 solid;
+    border-radius: 50%;
+    z-index: -1;
+}
+nav{
+    text-align:center;
+    background-color:#DDDDDD;
+    padding: 2rem;
+    margin: 0;
+}
+.anav{
+    color: black;
+    padding:0 1rem;
+    font-size: 1.8rem;
+    font-family: 'Karantina';
+    text-decoration: none;
+}
+.anav:hover{
+    text-decoration: blue underline;
+    opacity: 0.7;
+}
+.snav{
+    padding: 0px 1rem;
+    color: #11698E;
+}
+.fisection{
+    display: flex;
+    padding: 6rem calc((100% - 1348px)/2);
+    background-color: #444444;
+    color: #ffff;
+}
+h1{
+    font-family: 'assistant',sans-serif;
+    margin: 0;
+    padding:0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2{
+    font-family: 'assistant',sans-serif;
+    margin: 0.5rem 0 0 0;
+    font-weight: 500;
+}
+h3{
+    font-family: 'assistant',sans-serif;
+    font-weight: 700;
+}
+.dspan{
+    display: flex;
+}
+.shead{
+    font-family: 'Orbitron','monospace';
+    font-weight: 600;
+    font-size: 0.8rem;
+    background-color: #DDDDDD;
+    color: #11698E;
+    margin: 1rem 0rem; 
+    padding: 0.5rem;                        
+    width: 6rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow:1px 1px rgb(65, 55, 55);
+}
+.shead:hover{
+    margin-top:-10px;
+}
+.contact{  
+    font-family: 'Mukta'; 
+    display: inline-block;
+    padding: 5px 0;                                                               
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size:1.5rem;
+}
+.icon{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}  
+.fisection p{
+    font-size: 1.2rem;
+    max-width: 70%;
+}  
+.mimg{
+    border: 8px solid;
+    border-radius: 25%;
+    height: 20rem;
+    width: 20rem;
+}
+.sesection{
+    background-color: #11698E;
+    padding: 2rem calc((100% - 1348px)/2);
+}
+.divsectwoimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin:8vh 0;
+}
+.sesection h3{
+    font-size: 2rem;
+}
+.pse{
+    font-size: 1.2rem;
+    max-width: 75vh;
+}
+.seimg{ 
+    border: 8px solid #fff;
+    border-radius: 25%;
+    height: 17rem;
+    width: 17rem;
+}
+footer{
+    background-color: #444444;
+    color: white; 
+}
+form{
+    padding:calc((75% - 1348px)/2) 0;
+}
+.inputext{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:1rem;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #fff 2px solid;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: #DBE6FD;
+}
+textarea{
+    display: block;
+    text-align: center;
+    margin:2rem auto;
+    width:25rem;
+}
+.inputsubmit{
+    display: block;
+    margin:0 auto 2rem;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:#11698E;
+    border-radius: 7%;
+    border: #11698E 3px solid;
+
+}
+.inputsubmit:hover{
+    background-color: #0328f8;
+    color: rgb(6, 233, 101);
+    box-shadow: 0px 10px black;
+}
+.closing{
+    position: relative;
+    background-color: #DDDDDD;
+}
+.fa-arrow-circle-up{
+    font-size: 25px;
+    position: absolute;
+    top: calc(50% - 12.5px);
+    right: 20px;
+    color: #2F5D62;
+}
+.pfooter{
+    color: #2F5D62;
+    text-align: center;
+    margin: 0;
+    padding: 1.0rem;
+    font-size: 1rem;
+    font-family: 'Secular One';
+}
